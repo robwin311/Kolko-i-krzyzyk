@@ -13,6 +13,6 @@ public:
 	void WykonajRuch(Plansza* Game);
 private:
 	void PierwszyRuch(Plansza* Game)const;
-	int MinIMax(Plansza* Board, int Depth, bool IsMax);
-	int Ocen(Plansza* Board);
+	int MinIMax(Plansza* Gameboard, int Depth, bool IsMax, int& alpha, int& beta);
+	int Ocen(Plansza* Gameboard, int Depth);
 };

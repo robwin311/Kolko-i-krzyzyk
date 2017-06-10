@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-	Plansza p(4, 2);
+	Plansza p(5, 3);
 	Osoba o1('X');
 	Komputer o2('O');
 	p.SetPlayers(&o1, &o2);
